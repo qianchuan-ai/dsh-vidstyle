@@ -1,0 +1,10 @@
+# dsh-vidstyle bundle patch: 把插件行插入 web profile roster。
+# 安装：`dsh plugin --profile web add dsh-vidstyle`，
+# 或经 dev_install_package 热装配（profile package.json dependencies + bundles）。
+#
+# 该插件是纯 host 端插件（exports "."）：经 ctx.skills.registerProvider
+# 注册 bundled 级（rank 600）技能 provider，暴露 12 个中式美学 AI 视频
+# 风格的方法卡与提示词配方。无 client 端代码，无 UI 注入，无外部依赖。
+- insert:
+    - id: dsh-vidstyle
+      name: 'dsh-vidstyle'

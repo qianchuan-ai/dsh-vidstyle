@@ -1,0 +1,148 @@
+{
+  "version": "0.1.0",
+  "name": "dsh-vidstyle",
+  "title": "中式美学 AI 视频风格库",
+  "title_en": "Chinese-Aesthetic AI Video Style Library",
+  "count": 12,
+  "defaults": {
+    "ratio": "9:16",
+    "resolution": "1080x1920",
+    "shot_seconds": 4,
+    "platform": "jimeng",
+    "prompt_order": "风格锚点 → 材质与色彩 → 主体与环境 → 光照 → 运镜 → 运动 → 负面"
+  },
+  "styles": [
+    {
+      "slug": "dunhuang-feitian",
+      "cn": "敦煌飞天",
+      "en": "Dunhuang Apsara",
+      "cat": "国风",
+      "cat_en": "Chinese Aesthetics",
+      "line": "矿物料绘于泥壁，飞天不生双翼、全凭飘带腾空",
+      "traits": ["飘带即飞行", "矿物料粉质感", "铁线描匀力", "壁面物质", "补色强对比"],
+      "native_moves": ["飘带一甩带出转场", "散花", "反弹琵琶", "凹凸晕染显现"],
+      "file": "styles/dunhuang-feitian/STYLE.md"
+    },
+    {
+      "slug": "gongbi-flora",
+      "cn": "工笔花鸟",
+      "en": "Gongbi Flora & Birds",
+      "cat": "国风",
+      "cat_en": "Chinese Aesthetics",
+      "line": "绢本细笔设色，三矾九染叠出半透明层次，丝毛一根根劈出",
+      "traits": ["折枝构图", "丝毛法", "三矾九染半透明", "静中之动", "勾线极细"],
+      "native_moves": ["丝毛显影", "撞水撞粉", "折枝入画", "鸟欲飞未飞"],
+      "file": "styles/gongbi-flora/STYLE.md"
+    },
+    {
+      "slug": "song-minimal",
+      "cn": "宋代极简",
+      "en": "Song Minimalism",
+      "cat": "国风",
+      "cat_en": "Chinese Aesthetics",
+      "line": "单色釉瓷器与边角构图，汝窑天青、哥窑开片，少即是满",
+      "traits": ["单色釉一色到底", "开片冰裂纹", "边角构图", "比例即美", "光是唯一运动"],
+      "native_moves": ["开片蔓延", "天青渐变", "光扫釉面", "留白显形"],
+      "file": "styles/song-minimal/STYLE.md"
+    },
+    {
+      "slug": "ink-motion",
+      "cn": "水墨动画",
+      "en": "Ink Motion",
+      "cat": "国风",
+      "cat_en": "Chinese Aesthetics",
+      "line": "生宣湿墨，边缘有纤维毛刺，墨分五色由焦到清",
+      "traits": ["洇（纤维毛刺）", "墨分五色", "留白即空间", "笔势与飞白", "意在笔先"],
+      "native_moves": ["墨滴洇开成形", "一笔扫过", "五色渐变显影", "水冲淡墨"],
+      "file": "styles/ink-motion/STYLE.md"
+    },
+    {
+      "slug": "cyber-sino",
+      "cn": "赛博中国",
+      "en": "Cyber Sino",
+      "cat": "国风",
+      "cat_en": "Chinese Aesthetics",
+      "line": "雨夜霓虹的中式赛博，汉字招牌、飞檐斗拱、数据流穿过榫卯",
+      "traits": ["汉字是光源", "中式构造发光", "湿面反射", "暗底高对比", "数据流是实体"],
+      "native_moves": ["霓虹逐笔点亮", "数据流穿檐", "雨中霓虹反射", "全息展开"],
+      "file": "styles/cyber-sino/STYLE.md"
+    },
+    {
+      "slug": "shadow-puppet",
+      "cn": "皮影戏",
+      "en": "Shadow Puppetry",
+      "cat": "国风",
+      "cat_en": "Chinese Aesthetics",
+      "line": "驴皮镂刻的影人，五分侧面，关节线缀，透光色投在白幕上",
+      "traits": ["五分侧面", "镂空透光", "关节线缀", "半透明色", "白幕与灯"],
+      "native_moves": ["关节顿挫", "镂空透光", "影人入幕", "影子重叠"],
+      "file": "styles/shadow-puppet/STYLE.md"
+    },
+    {
+      "slug": "ukiyoe",
+      "cn": "浮世绘",
+      "en": "Ukiyo-e Woodblock",
+      "cat": "国际",
+      "cat_en": "International",
+      "line": "江户木版画，多版套印平涂色块，木刻钝感线，普鲁士蓝主导",
+      "traits": ["平涂无渐变", "木刻钝感线", "多版套印错位", "大胆裁切", "蓝的主导"],
+      "native_moves": ["套色版次叠加", "波浪卷起", "晕染带展开", "形状被刻出来"],
+      "file": "styles/ukiyoe/STYLE.md"
+    },
+    {
+      "slug": "impasto-oil",
+      "cn": "油画厚涂",
+      "en": "Impasto Oil",
+      "cat": "国际",
+      "cat_en": "International",
+      "line": "堆厚的油画颜料，笔触与画刀的脊在光下有真实起伏",
+      "traits": ["颜料有厚度", "笔触有方向", "湿接湿", "块面概括", "丰富的灰"],
+      "native_moves": ["一笔扫过", "颜料堆叠", "画刀平刮", "沸腾显影"],
+      "file": "styles/impasto-oil/STYLE.md"
+    },
+    {
+      "slug": "watercolor-bleed",
+      "cn": "水彩晕染",
+      "en": "Watercolor Bleed",
+      "cat": "国际",
+      "cat_en": "International",
+      "line": "湿纸上的透明水彩，水自己走，边缘堆出水痕圈",
+      "traits": ["水自己走", "水痕圈", "透明叠层", "纸的白就是白", "纸纹颗粒"],
+      "native_moves": ["一滴水落下", "两色相撞", "水痕蔓延", "留白显形"],
+      "file": "styles/watercolor-bleed/STYLE.md"
+    },
+    {
+      "slug": "pixel-retro",
+      "cn": "像素复古",
+      "en": "Pixel Retro",
+      "cat": "国际",
+      "cat_en": "International",
+      "line": "低分辨率网格上的有限色板，硬边无抗锯齿，渐变靠抖动点阵",
+      "traits": ["格子可见", "有限色板≤32", "抖动做渐变", "网格对齐", "隔帧动画"],
+      "native_moves": ["抖动渐变", "逐格点亮", "sprite 动画", "整数倍缩放"],
+      "file": "styles/pixel-retro/STYLE.md"
+    },
+    {
+      "slug": "noir-archive",
+      "cn": "黑白电影",
+      "en": "Noir Archive",
+      "cat": "国际",
+      "cat_en": "International",
+      "line": "高对比黑白胶片，低调照明切出窄亮部，百叶窗影与银盐颗粒",
+      "traits": ["低调照明", "硬光与深影", "百叶窗影", "银盐颗粒", "倾斜与封闭"],
+      "native_moves": ["百叶窗影扫过", "烟雾中的光束", "从暗部显形", "影子先于人"],
+      "file": "styles/noir-archive/STYLE.md"
+    },
+    {
+      "slug": "collage-journal",
+      "cn": "拼贴手账",
+      "en": "Collage Journal",
+      "cat": "国际",
+      "cat_en": "International",
+      "line": "撕边纸张层次叠压，和纸胶带压角，拍立得与手写标注",
+      "traits": ["撕边", "层次叠压", "混合媒介", "不完美对齐", "手写标注"],
+      "native_moves": ["贴上去", "撕开胶带", "翻页", "盖章"],
+      "file": "styles/collage-journal/STYLE.md"
+    }
+  ]
+}

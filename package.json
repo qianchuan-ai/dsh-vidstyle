@@ -1,0 +1,66 @@
+{
+  "name": "dsh-vidstyle",
+  "version": "0.1.0",
+  "description": "中式美学 AI 视频提示词风格库（Chinese-aesthetic AI video style library for DeepSeek Harness）：12 个完整视觉风格（6 国风原创 + 6 国际重写）——敦煌飞天、工笔花鸟、宋代极简、水墨动画、赛博中国、皮影戏、浮世绘、油画厚涂、水彩晕染、像素复古、黑白电影、拼贴手账。每个风格一份 11 节方法卡，产出可直接粘贴进即梦 / Seedance / 可灵 / 通义万相的中文提示词，含 hex 色号、运镜词汇表、招牌动作、AI 生成避坑与专属负面词，以及画幅 / 时长 / 语法的平台换算。只产出提示词，不生成图片或视频。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-skills",
+    "deepseek-harness",
+    "skills",
+    "skill-pack",
+    "video",
+    "video-prompt",
+    "prompt-library",
+    "style",
+    "style-library",
+    "ai-video",
+    "text-to-video",
+    "image-to-video",
+    "国风",
+    "中式美学",
+    "视频提示词",
+    "提示词库",
+    "风格库",
+    "即梦",
+    "seedance",
+    "可灵",
+    "通义万相",
+    "敦煌",
+    "水墨",
+    "工笔",
+    "皮影",
+    "浮世绘"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianchuan-ai/dsh-vidstyle.git"
+  },
+  "homepage": "https://github.com/qianchuan-ai/dsh-vidstyle#readme",
+  "bugs": {
+    "url": "https://github.com/qianchuan-ai/dsh-vidstyle/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "sideEffects": false
+}
